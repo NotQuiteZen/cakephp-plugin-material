@@ -1,5 +1,5 @@
 {
-  "name": "wrdx/cakephp-plugin-material",
+  "name": "notquitezen/cakephp-plugin-material",
   "description": "CakePHP 3 plugin providing helpers for http://daemonite.github.io/material/",
   "type": "cakephp-plugin",
   "license": "MIT",
@@ -11,7 +11,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Wrdx\\Material\\": "src"
+      "NotQuiteZen\\Material\\": "src"
     }
   }
 }

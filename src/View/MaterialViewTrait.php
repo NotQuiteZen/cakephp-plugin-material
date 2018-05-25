@@ -1,21 +1,21 @@
 <?php
 
-namespace Wrdx\Material\View;
+namespace NotQuiteZen\Material\View;
 
 /**
  * Trait MaterialViewTrait
  *
- * @package Wrdx\Material\View
+ * @package NotQuiteZen\Material\View
  */
 trait MaterialViewTrait {
 
     public function initializeMaterial() {
 
         # Load HtmlHelper
-        $this->loadHelper('Html', ['className' => 'Wrdx/Material.Html']);
+        $this->loadHelper('Html', ['className' => 'NotQuiteZen/Material.Html']);
 
         # Load FormHelper
-        $this->loadHelper('Form', ['className' => 'Wrdx/Material.Form']);
+        $this->loadHelper('Form', ['className' => 'NotQuiteZen/Material.Form']);
 
     }
 

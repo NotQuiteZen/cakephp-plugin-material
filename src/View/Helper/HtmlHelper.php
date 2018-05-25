@@ -1,6 +1,6 @@
 <?php
 
-namespace Wrdx\Material\View\Helper;
+namespace NotQuiteZen\Material\View\Helper;
 
 use Cake\View\View;
 use Cake\Utility\Hash;
