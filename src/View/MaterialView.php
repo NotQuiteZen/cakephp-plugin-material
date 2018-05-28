@@ -1,16 +1,16 @@
 <?php
 
-namespace NotQuiteZen\Material\View;
+namespace Material\View;
 
 use Cake\View\View;
 
 /**
  * Class MaterialView
  *
- * @package NotQuiteZen\Material\View
+ * @package Material\View
  *
- * @property \NotQuiteZen\Material\View\Helper\FormHelper $Form
- * @property \NotQuiteZen\Material\View\Helper\HtmlHelper $Html
+ * @property \Material\View\Helper\FormHelper $Form
+ * @property \Material\View\Helper\HtmlHelper $Html
  */
 class MaterialView extends View {
 

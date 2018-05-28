@@ -1,6 +1,6 @@
 <?php
 
-namespace NotQuiteZen\Material\View\Helper;
+namespace Material\View\Helper;
 
 use Cake\Utility\Hash;
 use Cake\View\View;

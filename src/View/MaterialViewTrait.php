@@ -1,21 +1,24 @@
 <?php
 
-namespace NotQuiteZen\Material\View;
+namespace Material\View;
 
 /**
  * Trait MaterialViewTrait
  *
- * @package NotQuiteZen\Material\View
+ * @package Material\View
  */
 trait MaterialViewTrait {
 
     public function initializeMaterial() {
 
         # Load HtmlHelper
-        $this->loadHelper('Html', ['className' => 'NotQuiteZen/Material.Html']);
+        $this->loadHelper('Html', ['className' => 'Material.Html']);
 
         # Load FormHelper
-        $this->loadHelper('Form', ['className' => 'NotQuiteZen/Material.Form']);
+        $this->loadHelper('Form', ['className' => 'Material.Form']);
+
+        # Load SnackbarHelper
+        $this->loadHelper('Snackbar', ['className' => 'Material.Snackbar']);
 
     }
 

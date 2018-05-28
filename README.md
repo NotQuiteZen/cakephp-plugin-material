@@ -15,12 +15,21 @@ Load Plugin in ```bootstrap.php```:
 Plugin::load('NotQuiteZen/Material');
 ```
 
+Load the Snackbar component in ```src/Controller/AppController.php```
+
+```
+public function initialize() {
+    parent::initialize();
+    $this->loadComponent('Material.Snackbar');
+}
+```
+
 Extend ```AppView``` in ```src/View/AppView.php```:
 
 ```php
 namespace App\View;
 
-use NotQuiteZen\Material\View\MaterialView;
+use Material\View\MaterialView;
 
 class AppView extends MaterialView {
 
@@ -34,7 +43,7 @@ namespace App\View;
 
 use Cake\View\View;
 
-use NotQuiteZen\Material\View\MaterialViewTrait;
+use Material\View\MaterialViewTrait;
 
 class AppView extends View {
 
