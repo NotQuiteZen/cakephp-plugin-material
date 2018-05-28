@@ -5,7 +5,7 @@ namespace Material;
 use Cake\Core\BasePlugin;
 
 /**
- * Plugin for ContactManager
+ * Plugin for Material
  */
 class Plugin extends BasePlugin {
 
